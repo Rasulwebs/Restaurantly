@@ -1773,7 +1773,9 @@ section {
   font-size: 13px;
   color: #fff;
 }
-
+.address i{
+  margin-right: 25px;
+  }
 @media screen and (max-width: 597px) {
 .contact .info {
   flex-direction: column !important;
