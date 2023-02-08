@@ -129,6 +129,7 @@ h6 {
   }
 }
 
+
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
@@ -1771,4 +1772,15 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+@media screen and (max-width: 597px) {
+.contact .info {
+  flex-direction: column !important;
+
+
+}
+.address i{
+margin-right: 25px;
+}
 }
